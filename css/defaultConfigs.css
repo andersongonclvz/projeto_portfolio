@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+/*********************************************************
+********************* PRESETS GERAIS *********************
+*********************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #01002A;
+    --secondary-color: #3382FE;
+    --border-color: #CFCFCF;
+    --text-color: #707070;
+    --blue-background: #E0E9F8;
+    --background: #F4F6FC;
+}
+
+/* Barra de rolagem */
+body::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: var(--background);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+}
+
+/* Cor do texto selecionado */
+::-moz-selection {
+    background: var(--secondary-color);
+    color: var(--background);
+}
+
+::selection {
+    background: var(--secondary-color);
+    color: var(--background);
+}
+
+/* Margens */
+.max-width {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 3rem;
+}
+
+html {
+    background-color: var(--background);
+}
